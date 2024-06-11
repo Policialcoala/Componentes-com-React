@@ -1,0 +1,47 @@
+h1 {
+    color: pink;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(102, 97, 91);
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff1515;
+}
+
+li {
+    display: flex;
+    
+}
+.rodape{
+    background-color: #66ff00;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a {
+    /* display: block; */
+    
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
