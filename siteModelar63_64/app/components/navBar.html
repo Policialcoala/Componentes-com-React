@@ -1,0 +1,29 @@
+<!-- COMPONENTE QUE VAI CARREGAR A NAV BAR PARA TODO O SITE SÓ CHAMAR ELE  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">HOME</a> <!--1ª Botão da nav bar -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" onclick="carregaPosts('../posts/post.html', 'pagina')" href="#">Posts</a> <!-- 2ª botão da nav bar carrega os posts -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projetos</a> <!-- 3ª botão da nav bar carrega  -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" onclick="carregaContato('../contato/contato.html', 'pagina')" href="#">Fale Conosco</a> <!-- 4ª botão da nav bar carrega o fale conosco pasta CONTATO -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" onclick="carregaSocial('../social/social.html', 'pagina')" href="#">midias</a> <!-- 4ª botão da nav bar carrega o fale conosco pasta CONTATO -->
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
